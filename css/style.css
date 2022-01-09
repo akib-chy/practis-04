@@ -84,7 +84,10 @@ nav ul li a::after {
 #navbar ul li:first-child {
   margin-left: 0;
 }
-#navbar:hover + .product1 {
+.product1 {
+  display: none;
+}
+.item-show:hover + .product1 {
   display: block;
 }
 #navbar ul li {
@@ -92,9 +95,7 @@ nav ul li a::after {
   margin-right: 17px;
   font-size: 14px;
 }
-.product1 {
-  display: none;
-}
+
 #navbar ul li a {
   text-decoration: none;
   padding: 10px 0;
